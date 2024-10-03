@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
+
+$title-color: #111213
+$title-font: 'Inter', sans-serif
+
+body
+    font-family: 'Noto Serif', serif
+
+header
+    padding: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background-color: #343a40
+
+    h1
+        color: #fff
+        text-align: center
+        font-family: $title-font
+
+    a
+        color: #fff
+
+    .menu
+        display: flex
+        gap: 10px
+
+
+main
+    max-width: 800px
+    padding: 0 20px
+    margin: 40px auto
+
+    article
+        margin: 20px 0
+
+        h2
+            text-align: center
+            font-size: 28px
+            font-weight: 800
+            font-family: $title-font
+            color: $title-color
+            margin: 0
+
+        .subtitle
+            font-size: 18px
+            font-weight: 600
+            text-align: center
+            color: #2f3237
+            margin: 5px 0
+
+    hr
+        margin: 40px 0
+        border: none
+        height: 1px
+        background-color: #000
+
+
+.comment
+    margin-bottom: 30px
+    h3, h4
+        margin: 0
+        font-family: $title-font
+
+    h4
+        color: #2f3232
+
+
+
+footer
+    padding: 20px 0
+    text-align: center
+
+    p
+        margin: 0
+
+/* BUTTONS */
+.buttons-container
+    display: flex
+    gap: 5px
+
+.btn
+    padding: 10px 15px
+    cursor: pointer
+    color: #fff
+    border-radius: 5px
+    text-decoration: none
+    border-width: 0
+    font-size: 14px
+    font-family: $title-font
+    font-weight: 700
+
+    &.btn-info
+        background-color: #2980b9
+
+    &.btn-danger
+        background-color: #e74c3c
+
+    &.btn-submit
+        background-color: #27ae60
+
+
+
+
+/* FORMS */
+.form-container
+    font-family: $title-font
+
+    form-item
+        margin: 10px 0
+
+    form
+        input, textarea
+            width: 100%
+            background-color: #fff
+            color: #363636
+            border-color: #dbdbdb
+            border-radius: 5px
+            border-width: 1px
+            padding: 5px
+            margin: 5px 0
+
+            input
+                height: 20px
