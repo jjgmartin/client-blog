@@ -35,23 +35,23 @@ const NewPostForm = () => {
         <div className="form-container">
             <form method="post" onSubmit={handleSubmit}>
                 <div className="form-item">
-                    <label>Titulo: </label>
+                    <label>Titulo del post: </label>
                     <input type="text" name="title" required={true} />
                 </div>
                 <div className="form-item">
-                    <label>Resumen:</label>
+                    <label>Resumen del post:</label>
                     <textarea name="extract" rows={4} cols={100} required={true} />
                 </div>
                 <div className="form-item">
-                    <label>Contenido:</label>
+                    <label>Contenido del post:</label>
                     <textarea name="content" rows={4} cols={100} required={true} />
                 </div>
                 <div className="form-item">
-                    <label>Nombre del autor:</label>
+                    <label>Nombre del autor del post:</label>
                     <input type="text" name="authorName" required={true} />
                 </div>
                 <div className="form-item">
-                    <label>Email del autor:</label>
+                    <label>Email del autor del post:</label>
                     <input type="email" name="authorEmail" required={true} />
                 </div>
                 <button type="submit" className="btn btn-submit">Añadir post</button>
